@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace EvaluationManager.Repositories {
     public static class ActivityRepository {
-        public static Activity GetStudent(int id) {
+        public static Activity GetActivity(int id) {
 
             Activity aktvnost = null;
             string sql = $"SELECT * FROM Students WHERE Id = {id}";
@@ -23,7 +23,7 @@ namespace EvaluationManager.Repositories {
             DB.CloseConnection();
                 return aktvnost;
             }
-            public static List<Activity> GetActivity() {
+            public static List<Activity> GetActivities() {
                 List<Activity> aktivnosti = new List<Activity>();
                 string sql = "SELECT * FROM Activities";
                 DB.OpenConnection();

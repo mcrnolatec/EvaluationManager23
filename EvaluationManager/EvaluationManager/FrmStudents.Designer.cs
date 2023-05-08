@@ -46,6 +46,7 @@
             // 
             // btnEvaluateStudent
             // 
+            this.btnEvaluateStudent.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnEvaluateStudent.Location = new System.Drawing.Point(656, 444);
             this.btnEvaluateStudent.Name = "btnEvaluateStudent";
             this.btnEvaluateStudent.Size = new System.Drawing.Size(132, 31);
