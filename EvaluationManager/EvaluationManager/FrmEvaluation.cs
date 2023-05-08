@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace EvaluationManager {
     public partial class FrmEvaluation : Form {
-        public FrmEvaluation() {
+        public FrmEvaluation(Models.Student selectedStudent) {
             InitializeComponent();
         }
     }
