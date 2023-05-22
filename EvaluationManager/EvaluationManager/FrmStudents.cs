@@ -42,5 +42,10 @@ namespace EvaluationManager
                 }
             }
         }
+        private void FrmFinalEval_Load(object sender, EventArgs e) {
+            var form = new FrmFinalReport();
+            form.ShowDialog();
+        }
+
     }
 }
